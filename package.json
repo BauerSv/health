@@ -16,8 +16,12 @@
   "author": "Bauer <bloodmoon87@mail.ru>",
   "license": "ISC",
   "dependencies": {
+    "axios": "^0.21.4",
+    "bootstrap": "^5.1.1",
+    "create-react-app": "^4.0.3",
     "i": "^0.3.6",
     "mini-css-extract-plugin": "^2.2.0",
+    "react-router-dom": "^5.3.0",
     "url-loader": "^4.1.1"
   },
   "devDependencies": {
@@ -26,7 +30,6 @@
     "@babel/preset-env": "^7.15.0",
     "@babel/preset-react": "^7.14.5",
     "@babel/preset-typescript": "^7.15.0",
-    "babel-loader": "^8.2.2",
     "clean-webpack-plugin": "^4.0.0-alpha.0",
     "css-loader": "^6.2.0",
     "css-webpack-plugin": "^1.0.2",

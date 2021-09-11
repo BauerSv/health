@@ -20,7 +20,7 @@ module.exports = {
     context: path.resolve(__dirname, 'src'),
     mode: 'development',
     entry: {
-        main: ['@babel/polyfill', './index.jsx'],
+        main: ['@babel/polyfill', './index.js'],
         analytics: './someFiles.js'
     },
     output: {

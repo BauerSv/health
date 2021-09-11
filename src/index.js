@@ -5,7 +5,7 @@ import './bable';
 import React from 'react';
 import  { render } from "react-dom";
 
-const App = () => (
+const Root = () => (
 
 <div className="container">
     <h1>Webpack Course</h1>
@@ -18,4 +18,4 @@ const App = () => (
     </div></div>
 );
 
-render(<App/>, document.getElementById('app'));
+render(<Root/>, document.getElementById('root'));
